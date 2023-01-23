@@ -9,3 +9,7 @@ const diferente = numero != 20; // false
 
 const estritamenteIgual = numero === "20"; // false
 const estritamenteDiferente = numero !== "20"; //false
+
+const estritamenteIgual_string = "texto" === "texto"// true
+const estritamenteDiferente_string = "texto" !== "texto"// false
+const exemplo = "teXto" === "texto"// false
