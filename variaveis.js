@@ -79,3 +79,18 @@ let experiencias = [
 
 //typeof função do javascript para saber o tipo da variável;
 console.log(typeof experiencias)
+
+
+
+//principal diferença entre var e let
+
+if(true){ //validacao somente para teste
+  let variaveLet = "variavel let"; //variavel declarada com let, somente pode ser usada dentro do if (bloco)
+  var variavelVar = "variavel var"; //variavel declarada com var, pode ser usado fora do if (bloco) 
+  
+  console.log(variaveLet) //printa o valor
+  console.log(variavelVar) //printa o valor
+}
+
+console.log(variavelVar) //printa o valor
+//console.log(variaveLet) //o código da erro
