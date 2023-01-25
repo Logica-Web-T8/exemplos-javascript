@@ -9,6 +9,10 @@ if (idade >= 18 && temTituloEleitor === true) {
   //executa esse trecho de código
   console.log("O usuário não é obrigado a votar");
 }
+
+// EXEMPLO COM IF TERNÁRIO
+const __resultado = idade >= 18 ? "maior de idade" : "menor de idade"
+
 // ---------------------------------------------------
 
 //exemplo 2
