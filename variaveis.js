@@ -45,7 +45,7 @@ let casa = {
   "endereco": "Rio de Janeiro - Brasil",
   'quantidade_banheiros': 2,
   cor: "branca",
-  aluado: false
+  alugado: false
 };
 
 let experienciaProfissional = {
